@@ -7,7 +7,7 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAw8LPgiPTn26s0yaNEsKU7E8BPDj_TVsQ",
+  apiKey: "Privada",
   authDomain: "khiron-7cf85.firebaseapp.com",
   databaseURL: "https://khiron-7cf85-default-rtdb.firebaseio.com",
   projectId: "khiron-7cf85",
@@ -23,3 +23,4 @@ const FIREBASE_AUTH = getAuth(FIREBASE_APP);
 
 export  {FIREBASE_APP as FIREBASE_APP}; 
 export  {FIREBASE_AUTH as FIREBASE_AUTH};
+
