@@ -1,0 +1,162 @@
+/* Global styles */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+
+header {
+        background-color: #333;
+        color: #fff;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+}
+.logo {
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+}
+
+/* Background image styles */
+
+.background-image {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+/* Book images styles */
+
+.book-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.book-images img {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul
+{
+	list-style-type:none;
+	background-color:#c5c5c5;
+	height:50px;
+	overflow:hidden;
+}
+li
+{
+	float:left;
+}
+	li a, .drp
+{
+    display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration:none;
+	}
+li .menu-item
+{
+	display:inline-block;
+	color: #fff;
+}
+.menu-content
+{
+	display:none;
+	position:absolute;
+	background-color:#FAD7A0;
+	z-index:1;
+}
+.menu-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.menu-item:hover .menu-content
+{
+	display:block;
+}
+.content {
+  width: 80%;
+  height: 2450px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.subcontent {
+  width: 90%;
+  height: 200px;
+  background-color: #FAD7A0;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.subcontent img {
+  margin-right: 20px;
+}
+
+.subcontent p {
+  font-size: 18px;
+  color: #333;
+}
+.subcontent button {
+  margin-bottom: 10px;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #FAD7A0;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  
+}
+
+label {
+  display: block;
+  margitextn-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
