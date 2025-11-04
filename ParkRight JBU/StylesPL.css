@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    gap: 0px; /* Adds spacing between sections */
+    padding: 0px;
+}
+
+
+/* MENU SECTION */
+
+.menu {
+    width: 15%;
+    background-color: #023e81;
+    color: white;
+    padding: 20px;
+}
+
+.menu h2 {
+    padding: 10px;
+}
+
+.menu button {
+    background-color: #023e81;
+    color: #ffffff;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.menu button:hover {
+    background-color: #ddd;
+}
+
+/* MAIN SECTION */
+.main-content {
+    width: 95%;
+    background-image: url('Background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 10px; /* Space between main and parking-lot section */
+}
+
+.main-content h2 {
+    padding: 10px;
+}
+
+
+/* RIGHT SECTION */
+
+
+.parking-lot {
+    width: 25%;
+    background-color: rgba(127, 255, 212, 0.171);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+/* TABLES */
+
+.Students-container, .Violations-container, .ViolationsHistory-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+table thead tr {
+    background-color: #023e81;
+    color: #ffffff;
+    text-align: left;
+}
+table th, table td {
+    padding: 12px 30px;
+}
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: #e0e0e0; /* Set a default gray background for all rows */
+}
+table tbody tr:nth-of-type(even) {
+    background-color: #d0d0d0; /* Slightly different gray for even rows */
+}
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #023e81;
+}
+table tbody tr.active-row {
+    font-weight: bold;
+    color: #010508;
+}
